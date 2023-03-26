@@ -1,0 +1,62 @@
+body {
+    font-family: "Lato", sans-serif;
+    margin: 0;
+}
+
+#header {
+    background-color: #222222;
+    height: 190px;
+    padding: 16px 0 0 0;
+}
+
+h1 {
+    color: #14C974;
+    font-size: 45px;
+    font-weight: bold;
+    text-align: center;
+    margin: 0 auto;
+}
+
+p {
+	color: #14C974;
+	text-align: center;
+    margin: 6px auto;
+}
+
+#graphs {
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 1024px;
+    padding-right: 10px;
+    padding-left: 10px;
+    margin-top: 32px;
+}
+
+#filters {
+    height: 112px;
+    width: 912px;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 24px;
+    margin: -80px auto 0 auto;
+    background-color: #FFFFFF;
+    box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.18);
+}
+
+.Select-control {
+    width: 256px;
+    height: 48px;
+}
+.Select--single>.Select-control .Select-value,
+.Select-placeholder {
+    line-height: 48px;
+}
+.Select--multi .Select-value-label {
+    line-height: 32px;
+}
+
+.filter-title {
+    margin-bottom: 6px;
+    font-weight: bold;
+    color: #148974;
+}
